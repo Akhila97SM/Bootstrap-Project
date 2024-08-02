@@ -1,0 +1,11 @@
+@media screen and (max-width:1200px){
+    .Templates{
+        width: 100%;
+    }
+}
+@media screen and (max-width:410px) {
+    .custom-width{
+        display: flex;
+        flex-direction: column;
+     }
+}

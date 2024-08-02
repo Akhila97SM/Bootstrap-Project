@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #e9edf2;
+}
+.container{
+    max-width: 1340px;
+}
+.form-range {
+    width: 100%
+}
+.fa-upload:before {
+    content: "\f093";
+    font-size: 22px;
+}
+.form-select:focus{
+    box-shadow: none;
+    border-color:var(--primary-color) ;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color:var(--primary-color) ;
+}
+.form-range:focus{
+    box-shadow: none;
+    border-color:var(--primary-color) ;
+}
+.form-check-input:checked {
+     background-color: var(--primary-color);
+    
+     border-color: var(--primary-color); 
+}
+.form-check-input[type=checkbox] {
+    border-radius: 1px;
+}
+.file{
+    display: none;
+}
+:root{
+    --primary-color:#4318ff;
+   --secondary-color: #949DB9;
+   --primary-text-color:#2B3674;
+}
+
+.upload{
+    border: 2px dashed var(--secondary-color) ;
+}
+.upload.form-label::after{
+     content: "";
+}
+.upload i,h6{
+    color: var(--primary-color);
+}
+.form-label::after{
+    content: "*" ;
+    color: red;
+}
+.value{
+   width: 100px;
+   font-weight: 700;
+   color: var(--primary-text-color);
+}
+.custom-width{
+   width: 100%;
+  
+}
+.head{
+  color: #2B3674;
+  font-size: 24px;
+  font-weight: 700;
+}
+.upload h6{
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+.upload p{
+    color: var(--secondary-color);
+    font-size: 12px;
+    font-weight: 500;
+}
+.text {
+    color: #2B3674;
+    font-size: 14px;
+    font-weight: 400;
+}
+.warning h6{
+    color: #624E17;
+    font-size: 16px;
+    font-weight: 500;
+}
+.warning p{
+    color: #624E17;
+    font-size: 14px;
+    font-weight: 400;
+}
+.select{
+    color: #949DB9;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form-control::placeholder{
+    color: var(--secondary-color);
+}
+.card{
+    height: 100%;
+    border: none;
+}
+.form-check-input{
+ color: var(--primary-color);
+}
+.form-check-input:focus{
+    box-shadow: none;
+}
+.form-range::-webkit-slider-thumb {
+ 
+    background: var(--primary-color);
+   
+  }
+.btn{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15PX 30PX;
+
+}
+.btn:first-child:active{
+    border-color:white!important;
+}
+.btn-lg{
+    color: var(--primary-text-color);
+}
+.btn-primary{
+    background-color: var(--primary-color);
+}

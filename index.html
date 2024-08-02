@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BOOTSTRAP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Montserrat:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/mediaqueries.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+      <div class="column col-lg-6 mt-3 ">
+        <div class="card rounded-4 ">
+          <header>
+            <h4 class="head p-4">Basic Details</h4>
+          </header>
+
+
+
+          <div class="body px-4 ">
+            <div class="row">
+              <div class="col-lg-12">
+                <label for="form-file"
+                  class="upload form-label  mb-3 p-4 d-flex flex-column align-items-center rounded-3">
+                  <i class="fa-solid fa-upload"></i>
+                  <h6>Upload Image</h6>
+                  <p class="mb-1 d-flex text-align-center">PNG,JPG files are allowed</p>
+                  <input type="file" class="form-control file" id="form-file" />
+                </label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <label for="select-menu" class="form-label text">Salutation</label>
+
+                <select class="form-select rounded-3 select" aria-label="Default select example" id="select-menu">
+                  <option selected>select</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div class="col-lg-4 mb-3">
+                <label for="frst-name" class="form-label text">First Name
+                </label>
+                <input type="text" id="frst-name" class="form-control rounded-3 select" placeholder="john" />
+              </div>
+
+              <div class="col-lg-5 mb-3">
+                <label for="exampleInputEmail1" class="form-label text">Last Name
+                </label>
+                <input type="text" id="exampleInputEmail1" class="form-control rounded-3 select" placeholder="Doe" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6 mb-3">
+                <div class="mb-3">
+                  <label for="emailinput" class="form-label text">Email address</label>
+                  <input type="text" id="emailinput" class="form-control rounded-3 select"
+                    placeholder="mail@simmmple.com" />
+                </div>
+              </div>
+
+              <div class="col-lg-6 mb-3">
+                <div class="mb-3">
+                  <label for="mobileinput" class="form-label text">Mobile Number
+                  </label>
+                  <input type="text" id="mobileinput" class="form-control rounded-3 select"
+                    placeholder="enter mobile number" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6 mb-3">
+                <label for="dobinput" class="form-label text">Date of Birth
+                </label>
+                <input type="date" id="dobinput" class="form-control rounded-3 select"
+                  placeholder="select date of birth" />
+              </div>
+
+              <div class="col-lg-6 mb-3">
+                <label for="gendrinput" class="form-label text">Gender</label>
+
+                <div class="d-flex gap-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="gendrinput" value="option1"
+                      checked />
+                    <label class="form-check-label select" for="exampleRadios1">
+                      Male
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                      value="option1" checked />
+                    <label class="form-check-label select" for="exampleRadios2">
+                      Female
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 mb-3">
+                <label for="addressinput" class="form-label text">Address
+                </label>
+                <input type="text" id="addressinput" class="form-control rounded-3 select"
+                  placeholder="enter Address" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6 mb-3">
+                <label for="contryinpt" class="form-label text">Country</label>
+
+                <select class="form-select rounded-3 select" aria-label="Default select example" id="contryinpt">
+                  <option selected>select</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div class="col-lg-6 mb-3">
+                <label for="stateinpt" class="form-label text">State</label>
+
+                <select class="form-select rounded-3 select" aria-label="Default select example" id="stateinpt">
+                  <option selected>select</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6 mb-2">
+                <label for="cityinpt" class="form-label text">City</label>
+                <input type="text" id="cityinpt" class="form-control rounded-3 select" placeholder="enter City" />
+              </div>
+
+              <div class="col-lg-6 mb-4">
+                <label for="pninpt" class="form-label text">Pin/Zip
+                </label>
+                <input type="text" id="pninpt" class="form-control rounded-3 select" placeholder="enter Pin/Zip " />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Second card -->
+
+      <div class="column col-lg-6 mt-3 ">
+        <div class="card rounded-4 ">
+          <div class="header p-4">
+            <h4 class="head ">Advanced Details</h4>
+          </div>
+          <div class="body px-4">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="alert alert-warning warning" role="alert">
+                  <h6>Sample warning messages - alert</h6>
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus sed fermentum felis. Aliquam erat volutpat. Donec
+                    faucibus mauris vel nibh sodales feugiat. Donec suscipit felis
+                    vitae orci porttitor congue.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6 mb-3">
+                <label for="customRange1" class="form-label text">Height</label>
+                <div class="d-flex gap-2 align-items-center">
+                  <input type="range" class="form-range" id="customRange1" />
+                  <input type="text" class="form-control value rounded-3 py-2 custom-col" value="160 cm" />
+                </div>
+              </div>
+
+              <div class="col-lg-6 mb-3">
+                <label for="customRange2" class="form-label text">Weight</label>
+                <div class="d-flex gap-2 align-items-center">
+                  <input type="range" class="form-range" id="customRange2" />
+                  <input type="text" class="form-control value rounded-3 py-2 custom-col" value="68 kg" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4 mb-3 Templates">
+                <label for="exampleColorInput" class="form-label text">Choose Color
+                </label>
+                <input type="color" class="form-control form-control-color custom-width" id="exampleColorInput"
+                  value="#CB5D9F" title="Choose your color" />
+              </div>
+
+              <div class="col-lg-8 mb-3 Templates">
+                <label for="templateInput1" class="form-label text">Choose Template
+                </label>
+                <div class="d-flex gap-3 custom-width justify-content-between">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="templateInput1" />
+                    <label class="form-check-label" for="templateInput1"">
+                      Template 1
+                    </label>
+                  </div>
+                  <div class=" form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                      <label class="form-check-label" for="flexCheckChecked">
+                        Template 2
+                      </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3" checked />
+                    <label class="form-check-label" for="flexCheckChecked3">
+                      Template 3
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 mb-3">
+                <label for="qualifctninpt" class="form-label text">Qualifications</label>
+                <input type="text" id="qualifctninpt" class="form-control rounded-3"
+                  placeholder="enter qualifications" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <label for="abotinpt" class="form-label text">About Your Self
+                </label>
+
+                <textarea class="form-control" placeholder="enter here..." id="abotinpt" rows="5"></textarea>
+
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <div class="col-lg-12 ">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label text" for="flexCheckDefault">
+                    I Accept Terms & Conditions
+                  </label>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 my-4 ">
+          <div class="card  p-3 rounded-4">
+            <div class="row">
+              <div class="col-lg-12 d-flex gap-2 justify-content-end">
+                <button type="button" class="btn btn-lg">Cancel</button>
+                <button type="button" class="btn btn-primary rounded-4">Save Changes</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
